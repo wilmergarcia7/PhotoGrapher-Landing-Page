@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/webkul-micron@1.1.6/dist/css/micron.min.css" type="text/css" rel="stylesheet">
+    <script src="https://unpkg.com/webkul-micron@1.1.6/dist/script/micron.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="CSS/LandingPage.css" />
+    <title>Landing Page</title>
+</head>
+
+<body style="background-color: #070203;">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid d-flex justify-content-between">
+            <a class="navbar-brand" style="font-family: Kaushan Script, cursive;" href="#">VINTAGE STUDIO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Desplegar Menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-md-flex justify-content-md-end " id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#hero">Fotografía</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cards">Taller</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quotes">Galería</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="container-fluid">
+        <div class="hero row d-flex align-items-center justify-content-center">
+            <div class="row d-flex align-items-center justify-content-center p-3">
+                <h1 class="title">
+                    ¡Captura momentos, historias y sonrisas!
+                </h1>
+                <form id="form1" action="" method="post" class="col-md-6 col-lg-4 m-md-auto pb-5">
+                    <label class="mb-3" for="txtEmail">¡Unete a nuestro taller!</label>
+                    <br/><input class="form-control-lg" type="email" name="txtEmail" id="txtEmail" placeholder="Tu Correo Electrónico" />
+                    <br/><button class="btn btn-primary btn-lg mt-3" data-micron="shake" id="btnForm1">Toma una foto</button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <main class="container mb-5">
+        <section class="row mt-5 d-flex justify-content-center">
+            <h2 class="col-md-6 text-center" style="color: #fff;">Galería</h2>
+        </section>
+        <section class="row mt-5" data-masonry='{"percentPosition":true}'>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img class="card-top-img" alt="Husky llamada Alaska" src="IMAGES/1.jpg" />
+                    <div class="card-body">
+                        <div class="card-title">Ojo de Lobo</div>
+                        <p>Foto al ojo de una Husky &#x1F440;</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img class="card-top-img" alt="Cámara marca Sony en blanco y negro" src="IMAGES/2.jpg" />
+                    <div class="card-body">
+                        <div class="card-title">Cámara</div>
+                        <p>Foto en blanco y negro a una cámara &#x1F4F7;.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img class="card-top-img" alt="Perrita Husky observando a la cámara" src="IMAGES/3.jpg" />
+                    <div class="card-body">
+                        <div class="card-title">Mirada de Husky</div>
+                        <p>Alaska una Husky que se divierte y que logra posar para fotos &#x1F415;</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img class="card-top-img" alt="Husky negro con blanco que esta sentado" src="IMAGES/4.jpg" />
+                    <div class="card-body">
+                        <div class="card-title">Husky tranquilo</div>
+                        <p>Husky de nombre Sky que logra posar para las fotos &#x1F415;.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img class="card-top-img" alt="Luz de bengala que se sostiene en la mano" src="IMAGES/5.jpg" />
+                    <div class="card-body">
+                        <div class="card-title">Bengala</div>
+                        <p>Bengala encendida tomada en año nuevo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img class="card-top-img" alt="Flores de jardín" src="IMAGES/6.jpg" />
+                    <div class="card-body">
+                        <div class="card-title">Flores</div>
+                        <p>Flores en jardín.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img class="card-top-img" alt="Luna llena" src="IMAGES/luna.jpg" />
+                    <div class="card-body">
+                        <div class="card-title">Luna Creciente</div>
+                        <p>Foto tomada a la luna en su fase creciente.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img class="card-top-img" alt="Ensalada" src="IMAGES/8.jpg" />
+                    <div class="card-body">
+                        <div class="card-title">Wilmer</div>
+                        <p>Autoretrato de Wilmer tomado con un dispositivo móvil.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 mt-2 text-center">
+                <div class="p-5">
+                    <div class="">
+                        <form action="" method="post" class="w-100" id="form2">
+                            <label for="txtEmail2" class="mr-3">¡No esperes, empieza a capturar historias!</label>
+                            <input class="form-control" type="email" name="txtEmail" id="txtEmail2" placeholder="Tu Correo Electrónico" />
+                            <button class="btn btn-primary btn-lg mt-3" id="btnForm2">Tomar foto</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container mt-5">
+            <section class="row">
+                <div class="col-md-4 text-center">
+                    <img alt="User Quote 1" src="IMAGES/11.jpg" class="rounded-circle shadow" style="width:200px; height:200px" />
+                    <div class="m-4">
+                        <q style="color: #fff;">Prueba nuevos ángulos.</q>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img alt="User Quote 2" src="IMAGES/12.jpg" class="rounded-circle shadow" style="width:200px; height:200px" />
+                    <div class="m-4">
+                        <q style="color: #fff;">Aprende a utilizar la luz a tu favor.</q>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img alt="User Quote 3" src="IMAGES/13.jpg" class="rounded-circle shadow" style="width:200px; height:200px" />
+                    <div class="m-4">
+                        <q style="color: #fff;">Usa tu creatividad para obtener mejores fotos.</q>
+                    </div>
+                </div>
+            </section>
+
+        </section>
+    </main>
+    <footer class=" container-fluid bg-dark text-white text-center p-5">
+        <p > Wilmer Josué García Pineda &copy;Desarrollo de Portales Web 2021</p>
+        
+
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function(e) {
+                    /*Esto es para que no se dispare el formulario*/
+                    document.getElementById("form1").addEventListener("submit", function(e) {
+                        e.preventDefault();
+                        e.stopPropagation();
+
+                    });
+                    document.getElementById("form2").addEventListener("submit", function(e) {
+                        e.preventDefault();
+                        e.stopPropagation();
+
+                    });
+                    /*  */
+                    var btns = document.getElementsByTagName("button");
+                    for (var i = 0; i < btns.length; i++) {
+                        btns[i].addEventListener("mouseenter", function(e) {
+                            micron.getEle("#" + e.target.id).interaction("bounce").duration(".45").timing("ease-out");
+                        });
+                        btns[i].addEventListener("mouseleave", function(e) {
+                            var classes = e.target.classList;
+                            var toRemove = [];
+                            for (var j = 0; j < classes.length; j++) {
+                                var classstr = classes[j];
+                                if ((/^mjs-.*$/).test(classstr)) {
+                                    toRemove.push(classstr);
+                                }
+                            }
+                            toRemove.map(function(cst) {
+                                e.target.classList.remove(cst);
+                            });
+                        });
+                    }
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js " integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+</body>
+
+</html>
